@@ -1,0 +1,19 @@
+body{
+    font-size: 16px;
+    background-color: aqua;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: rgb(119, 107, 107);
+}
+
+p {
+    font-weight: 600;
+    font-size: 300%;
+    color: rgb(245, 22, 22);
+}
+
+ul {
+    line-height: 50px;
+}
