@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(173, 173, 173);
+}
+
+img {
+    border-radius: 50%;
+    display: inline-block;
+    object-fit: cover;
+}
+
+#perfil {
+    text-align: center;
+}
