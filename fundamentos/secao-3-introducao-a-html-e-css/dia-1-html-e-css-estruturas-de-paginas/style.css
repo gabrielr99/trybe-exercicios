@@ -3,8 +3,40 @@
     padding: 0;
 }
 
+/* Cabeçalho */
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+
+    background-color: rgb(71, 63, 63);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#cabecalho, div {
+    padding-left: 15px;
+}
+
+#barra-de-navegacao {
+    margin-right: 15px;
+}
+
+#barra-de-navegacao, a {
+    color:rgb(173, 173, 173);
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
 body {
     background-color: rgb(173, 173, 173);
+}
+
+main {
+    margin-top: 5%;
 }
 
 /* Sobre mim */
