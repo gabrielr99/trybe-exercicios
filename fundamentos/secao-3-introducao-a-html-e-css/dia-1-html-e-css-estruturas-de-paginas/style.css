@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1%;
-
+    height: 15px;
     background-color: rgb(71, 63, 63);
     color: white;
     position: fixed;
@@ -17,18 +17,23 @@
     width: 100%;
 }
 
-#cabecalho, div {
+#cabecalho div {
     padding-left: 15px;
 }
 
 #barra-de-navegacao {
-    margin-right: 15px;
+    margin-right: 40px;
 }
 
-#barra-de-navegacao, a {
+#barra-de-navegacao a {
+    font-size: 14px;
     color:rgb(173, 173, 173);
     text-decoration: none;
     padding: 0px 10px;
+}
+
+#barra-de-navegacao a:hover {
+    color: rgb(16, 113, 197);
 }
 
 body {
@@ -36,26 +41,99 @@ body {
 }
 
 main {
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 /* Sobre mim */
+
+#perfil h1 {
+    font-size: 30px;
+}
 
 img {
     margin: 30px auto;
     border-radius: 50%;
     display: inline-block;
     object-fit: cover;
+    box-shadow: 6px 5px 5px rgb(241, 238, 238)
 }
 
 #perfil {
     text-align: center;
+    margin-bottom: 50px;
+}
+
+#perfil p {
+    font-size: 14px;
+    padding: 0px 28%
 }
 
 /* Corpo */
+
+h4 {
+    margin-bottom: 15px;
+}
 
 ul {
     list-style: none;
     text-decoration: none;
     margin-left: 1%;
+}
+
+.li {
+    line-height: 150%;
+}
+
+#lista-de-habilidades {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+#aprendidas {
+    margin-left: 100px;
+}
+
+#a-aprender {
+    margin-left: 300px;
+}
+
+#midias-socias {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#midias-socias a i {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+#me-siga {
+    margin-bottom: 5px;
+}
+
+#linkedin {
+    color: #0077b5
+}
+
+#linkedin:hover {
+    color: #004a72
+}
+
+#instagram {
+    color: #e4405f
+}
+
+#instagram:hover {
+    color: #992a3e
+}
+
+#facebook {
+    color: #3b5998
+}
+
+#facebook:hover {
+    color: #1d2f5b
 }
