@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(173, 173, 173);
+}
+
+/* Sobre mim */
+
+img {
+    margin: 30px auto;
+    border-radius: 50%;
+    display: inline-block;
+    object-fit: cover;
+}
+
+#perfil {
+    text-align: center;
+}
+
+/* Corpo */
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 1%;
+}
