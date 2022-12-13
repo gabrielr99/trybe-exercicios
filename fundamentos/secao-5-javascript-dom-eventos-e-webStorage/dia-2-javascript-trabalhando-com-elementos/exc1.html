@@ -86,6 +86,14 @@
       const p1 = creatP();
       p1.innerText = "algum texto";
       section1.appendChild(p1);
+
+      const leftSection = creatSection();
+      leftSection.className = 'left-content';
+      main.appendChild(leftSection);
+
+      const rightSection = creatSection();
+      rightSection.className = 'right-content';
+      main.appendChild(rightSection);
     </script>
   </body>
 </html>
