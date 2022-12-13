@@ -114,20 +114,25 @@
 
       let h3
       const creatH3 = () => {
-        p = document.createElement('h3');
+        h3 = document.createElement('h3');
         return h3
       };
 
       const primeiroh3 = creatH3();
       primeiroh3.className = 'description'
       main.appendChild(primeiroh3);
+
       const segundoh3 = creatH3();
       segundoh3.className = 'description'
       main.appendChild(segundoh3);
+
       const terceiroh3 = creatH3();
       terceiroh3.className = 'description'
       main.appendChild(terceiroh3);
 
+      main.removeChild(leftSection);
+
+      rightSection.style.marginRight = 'auto';
     </script>
   </body>
 </html>
