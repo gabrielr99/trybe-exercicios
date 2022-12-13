@@ -62,6 +62,20 @@
       const h1Body = document.createElement('h1');
       h1Body.innerText = 'TrybeTrip - Agência de Viagens';
       body.appendChild(h1Body);
+
+      const main = document.createElement('main');
+      main.className = 'main-content';
+      body.appendChild(main);
+
+      let section
+      const creatSection = () => {
+        section = document.createElement('section');
+        return section
+      };
+
+      const section1 = creatSection();
+      section1.className = 'enter-content';
+      main.appendChild(section1)
     </script>
   </body>
 </html>
