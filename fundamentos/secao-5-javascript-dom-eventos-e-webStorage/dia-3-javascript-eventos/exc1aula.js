@@ -28,7 +28,7 @@ input.addEventListener('keyup', transcribe);
 function transcribe() {
   const tech = document.querySelector('.tech');
   tech.innerText = input.value;
-}
+};
 
 
 // - Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
@@ -36,6 +36,19 @@ function transcribe() {
 //  - Que tal redirecionar para seu portfólio?
 
 // - Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
+// a cor do mesmo;
+myWebpage.addEventListener('mouseover', switchColorRed);
+myWebpage.addEventListener('mouseleave', switchColorWhite);
+
+function switchColorRed(top3) {
+  top3.target.style.color = 'red';
+};
+
+function switchColorWhite(top3) {
+  top3.target.style.color = 'white';
+};
+
+
 
 
 // Segue abaixo um exemplo do uso de event.target:
