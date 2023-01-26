@@ -13,4 +13,4 @@ const employeesGenerator = (fullName) => {
   // return {fullName, email: `${fullName.toLowerCase().split(" ").join("_")}@betrybe.com.br`};
 }
 
-console.log(newEmployees(employeesGenerator))
+console.log(newEmployees(employeesGenerator));
